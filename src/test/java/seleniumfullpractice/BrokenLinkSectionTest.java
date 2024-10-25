@@ -29,6 +29,7 @@ public class BrokenLinkSectionTest {
         // config.initialize();
     }
 
+    //Esta prueba debe fallar porque la pagina contiene links rotos a proposito.
     @Test
     public void there_are_no_broken_links() throws IOException, InterruptedException {
         List<WebElement> links = brokenLinkSection.getLinks();
